@@ -1,0 +1,18 @@
+print ('arun')
+
+a=" My name is Arun Prasath"
+print (a)
+print (a[2])
+print (len(a))
+print (a.strip())
+
+Z = 'run' in a
+print (Z)
+
+#format
+age = 26
+txt = "My name is Arun, and I am {}"
+print(txt.format(age))
+
+txt = "My name\f is Arun"
+print(txt)
